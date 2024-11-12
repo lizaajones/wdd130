@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto; /* Center content horizontally */
@@ -71,8 +72,9 @@ body {
 }
 
 .home-title, .msg h2 {
-    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
-    font-size: 2em;
+    font-family: "Frank Ruhl Libre", 'Bradley Hand', sans-serif;
+    font-size: 2em; 
+    color: #d9c2a3;
 }
 .book, .join {
     font-size: 18px;
@@ -123,7 +125,7 @@ footer .social img {
     padding-top: 15px;
 }
 .home-title {
-    margin-top: 10px;
+    margin-top: 10px; 
 }
 
 .book, .join {
@@ -261,6 +263,7 @@ footer {
     border: 10px solid #d9c2a3;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
+    width: 100%;
 }
 
 .card-img:hover {
